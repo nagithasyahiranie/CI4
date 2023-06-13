@@ -1,0 +1,180 @@
+CRITICAL - 2023-05-15 20:01:06 --> Object of class App\Controllers\AuthController could not be converted to string
+in APPPATH\Controllers\AuthController.php on line 27.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AuthController->simpanRegistrasi()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\project\\latihan_sulistia4\\public\\index.php')
+CRITICAL - 2023-05-15 20:03:39 --> Object of class App\Controllers\AuthController could not be converted to string
+in APPPATH\Controllers\AuthController.php on line 27.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AuthController->simpanRegistrasi()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\project\\latihan_sulistia4\\public\\index.php')
+CRITICAL - 2023-05-15 20:24:34 --> Object of class App\Controllers\AuthController could not be converted to string
+in APPPATH\Controllers\AuthController.php on line 27.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AuthController->simpanRegistrasi()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\project\\latihan_sulistia4\\public\\index.php')
+CRITICAL - 2023-05-15 20:29:37 --> Object of class App\Controllers\AuthController could not be converted to string
+in APPPATH\Controllers\AuthController.php on line 27.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AuthController->simpanRegistrasi()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\project\\latihan_sulistia4\\public\\index.php')
+CRITICAL - 2023-05-15 20:37:33 --> Object of class App\Controllers\AuthController could not be converted to string
+in APPPATH\Controllers\AuthController.php on line 27.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AuthController->simpanRegistrasi()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\project\\latihan_sulistia4\\public\\index.php')
+CRITICAL - 2023-05-15 20:39:47 --> Object of class App\Controllers\AuthController could not be converted to string
+in APPPATH\Controllers\AuthController.php on line 27.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AuthController->simpanRegistrasi()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\project\\latihan_sulistia4\\public\\index.php')
+CRITICAL - 2023-05-15 20:42:56 --> Object of class App\Controllers\AuthController could not be converted to string
+in APPPATH\Controllers\AuthController.php on line 27.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AuthController->simpanRegistrasi()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\project\\latihan_sulistia4\\public\\index.php')
+CRITICAL - 2023-05-15 20:43:46 --> Object of class App\Controllers\AuthController could not be converted to string
+in APPPATH\Controllers\AuthController.php on line 27.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AuthController->simpanRegistrasi()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\project\\latihan_sulistia4\\public\\index.php')
+CRITICAL - 2023-05-15 21:37:20 --> Object of class App\Controllers\AuthController could not be converted to string
+in APPPATH\Controllers\AuthController.php on line 27.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AuthController->simpanRegistrasi()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\project\\latihan_sulistia4\\public\\index.php')
+CRITICAL - 2023-05-15 21:48:19 --> Object of class App\Controllers\AuthController could not be converted to string
+in APPPATH\Controllers\AuthController.php on line 27.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AuthController->simpanRegistrasi()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\project\\latihan_sulistia4\\public\\index.php')
+CRITICAL - 2023-05-15 21:48:38 --> Object of class App\Controllers\AuthController could not be converted to string
+in APPPATH\Controllers\AuthController.php on line 27.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AuthController->simpanRegistrasi()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\project\\latihan_sulistia4\\public\\index.php')
+CRITICAL - 2023-05-15 21:52:57 --> Object of class App\Controllers\AuthController could not be converted to string
+in APPPATH\Controllers\AuthController.php on line 27.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AuthController->simpanRegistrasi()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\project\\latihan_sulistia4\\public\\index.php')
+CRITICAL - 2023-05-15 21:53:02 --> Object of class App\Controllers\AuthController could not be converted to string
+in APPPATH\Controllers\AuthController.php on line 27.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AuthController->simpanRegistrasi()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\project\\latihan_sulistia4\\public\\index.php')
+CRITICAL - 2023-05-15 21:54:20 --> Object of class App\Controllers\AuthController could not be converted to string
+in APPPATH\Controllers\AuthController.php on line 27.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AuthController->simpanRegistrasi()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\project\\latihan_sulistia4\\public\\index.php')
+CRITICAL - 2023-05-15 21:54:32 --> Object of class App\Controllers\AuthController could not be converted to string
+in APPPATH\Controllers\AuthController.php on line 27.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AuthController->simpanRegistrasi()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\project\\latihan_sulistia4\\public\\index.php')
+CRITICAL - 2023-05-15 22:01:32 --> Object of class App\Controllers\AuthController could not be converted to string
+in APPPATH\Controllers\AuthController.php on line 27.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AuthController->simpanRegistrasi()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\project\\latihan_sulistia4\\public\\index.php')
+CRITICAL - 2023-05-15 22:01:36 --> Object of class App\Controllers\AuthController could not be converted to string
+in APPPATH\Controllers\AuthController.php on line 27.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AuthController->simpanRegistrasi()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\project\\latihan_sulistia4\\public\\index.php')
+CRITICAL - 2023-05-15 22:18:31 --> Object of class App\Controllers\AuthController could not be converted to string
+in APPPATH\Controllers\AuthController.php on line 27.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AuthController->simpanRegistrasi()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\project\\latihan_sulistia4\\public\\index.php')
+CRITICAL - 2023-05-15 22:21:45 --> Object of class App\Controllers\AuthController could not be converted to string
+in APPPATH\Controllers\AuthController.php on line 27.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AuthController->simpanRegistrasi()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\project\\latihan_sulistia4\\public\\index.php')
+CRITICAL - 2023-05-15 22:21:50 --> Object of class App\Controllers\AuthController could not be converted to string
+in APPPATH\Controllers\AuthController.php on line 27.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AuthController->simpanRegistrasi()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\project\\latihan_sulistia4\\public\\index.php')
+CRITICAL - 2023-05-15 22:36:54 --> Unclosed '{' on line 8
+in APPPATH\Controllers\AuthController.php on line 60.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\project\\latihan_sulistia4\\app\\Controllers\\AuthController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\AuthController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\AuthController')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\AuthController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\project\\latihan_sulistia4\\public\\index.php')
+CRITICAL - 2023-05-15 22:36:57 --> Unclosed '{' on line 8
+in APPPATH\Controllers\AuthController.php on line 60.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\project\\latihan_sulistia4\\app\\Controllers\\AuthController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\AuthController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\AuthController')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\AuthController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\project\\latihan_sulistia4\\public\\index.php')
+CRITICAL - 2023-05-15 22:37:27 --> Unclosed '{' on line 8
+in APPPATH\Controllers\AuthController.php on line 60.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\project\\latihan_sulistia4\\app\\Controllers\\AuthController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\AuthController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\AuthController')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\AuthController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\project\\latihan_sulistia4\\public\\index.php')
+CRITICAL - 2023-05-15 22:37:32 --> Unclosed '{' on line 8
+in APPPATH\Controllers\AuthController.php on line 60.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\project\\latihan_sulistia4\\app\\Controllers\\AuthController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\AuthController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\AuthController')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\AuthController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\project\\latihan_sulistia4\\public\\index.php')

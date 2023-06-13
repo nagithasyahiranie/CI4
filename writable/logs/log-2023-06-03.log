@@ -1,0 +1,121 @@
+ERROR - 2023-06-03 05:20:00 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\project\latihan_sulistia4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 C:\project\latihan_sulistia4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'root', '', 'sulistia_ci4', 3306, '', 0)
+#1 C:\project\latihan_sulistia4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\project\latihan_sulistia4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\project\latihan_sulistia4\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\project\latihan_sulistia4\vendor\codeigniter4\framework\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\project\latihan_sulistia4\vendor\codeigniter4\framework\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\project\latihan_sulistia4\app\Controllers\Siswa.php(16): CodeIgniter\BaseModel->findAll()
+#7 C:\project\latihan_sulistia4\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Siswa->index()
+#8 C:\project\latihan_sulistia4\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+#9 C:\project\latihan_sulistia4\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\project\latihan_sulistia4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\project\latihan_sulistia4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\project\\lati...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\project\latihan_sulistia4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\project\latihan_sulistia4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\project\latihan_sulistia4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\project\latihan_sulistia4\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\project\latihan_sulistia4\vendor\codeigniter4\framework\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\project\latihan_sulistia4\vendor\codeigniter4\framework\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\project\latihan_sulistia4\app\Controllers\Siswa.php(16): CodeIgniter\BaseModel->findAll()
+#6 C:\project\latihan_sulistia4\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Siswa->index()
+#7 C:\project\latihan_sulistia4\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+#8 C:\project\latihan_sulistia4\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\project\latihan_sulistia4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\project\latihan_sulistia4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\project\\lati...')
+#11 {main}
+CRITICAL - 2023-06-03 05:20:00 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `role` = :role:', [...], false)
+ 3 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Siswa.php(16): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Siswa->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\project\\latihan_sulistia4\\public\\index.php')
+ERROR - 2023-06-03 05:21:18 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\project\latihan_sulistia4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 C:\project\latihan_sulistia4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'root', '', 'sulistia_ci4', 3306, '', 0)
+#1 C:\project\latihan_sulistia4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\project\latihan_sulistia4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\project\latihan_sulistia4\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\project\latihan_sulistia4\vendor\codeigniter4\framework\system\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\project\latihan_sulistia4\vendor\codeigniter4\framework\system\Validation\Validation.php(312): CodeIgniter\Validation\StrictRules\Rules->is_unique('ok@ok.com', 'email', Array, NULL, 'email')
+#6 C:\project\latihan_sulistia4\vendor\codeigniter4\framework\system\Validation\Validation.php(170): CodeIgniter\Validation\Validation->processRules('email', 'email', 'ok@ok.com', Array, Array)
+#7 C:\project\latihan_sulistia4\app\Controllers\AuthController.php(44): CodeIgniter\Validation\Validation->run(Array)
+#8 C:\project\latihan_sulistia4\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\AuthController->simpanRegistrasi()
+#9 C:\project\latihan_sulistia4\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#10 C:\project\latihan_sulistia4\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\project\latihan_sulistia4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\project\latihan_sulistia4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\project\\lati...')
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\project\latihan_sulistia4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\project\latihan_sulistia4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\project\latihan_sulistia4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\project\latihan_sulistia4\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#3 C:\project\latihan_sulistia4\vendor\codeigniter4\framework\system\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\project\latihan_sulistia4\vendor\codeigniter4\framework\system\Validation\Validation.php(312): CodeIgniter\Validation\StrictRules\Rules->is_unique('ok@ok.com', 'email', Array, NULL, 'email')
+#5 C:\project\latihan_sulistia4\vendor\codeigniter4\framework\system\Validation\Validation.php(170): CodeIgniter\Validation\Validation->processRules('email', 'email', 'ok@ok.com', Array, Array)
+#6 C:\project\latihan_sulistia4\app\Controllers\AuthController.php(44): CodeIgniter\Validation\Validation->run(Array)
+#7 C:\project\latihan_sulistia4\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\AuthController->simpanRegistrasi()
+#8 C:\project\latihan_sulistia4\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#9 C:\project\latihan_sulistia4\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\project\latihan_sulistia4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\project\latihan_sulistia4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\project\\lati...')
+#12 {main}
+CRITICAL - 2023-06-03 05:21:18 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `users`
+WHERE `email` = :email:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\Validation\Validation.php(312): CodeIgniter\Validation\StrictRules\Rules->is_unique('ok@ok.com', 'email', [...], null, 'email')
+ 5 SYSTEMPATH\Validation\Validation.php(170): CodeIgniter\Validation\Validation->processRules('email', 'email', 'ok@ok.com', [...], [...])
+ 6 APPPATH\Controllers\AuthController.php(44): CodeIgniter\Validation\Validation->run([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AuthController->simpanRegistrasi()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\project\\latihan_sulistia4\\public\\index.php')
+CRITICAL - 2023-06-03 05:28:26 --> Call to undefined function App\Controllers\redirecr()
+in APPPATH\Controllers\Siswa.php on line 97.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Siswa->delete('3')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\project\\latihan_sulistia4\\public\\index.php')
+CRITICAL - 2023-06-03 07:35:46 --> syntax error, unexpected token "public"
+in APPPATH\Controllers\AuthController.php on line 62.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\project\\latihan_sulistia4\\app\\Controllers\\AuthController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\AuthController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\AuthController')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\AuthController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\project\\latihan_sulistia4\\public\\index.php')
+CRITICAL - 2023-06-03 07:35:48 --> syntax error, unexpected token "public"
+in APPPATH\Controllers\AuthController.php on line 62.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\project\\latihan_sulistia4\\app\\Controllers\\AuthController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\AuthController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\AuthController')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\AuthController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\project\\latihan_sulistia4\\public\\index.php')
